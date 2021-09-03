@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="vonatt" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/vonatt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/vonatt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="cart.cpp" />
+		<Unit filename="cart.h" />
+		<Unit filename="database.cpp" />
+		<Unit filename="database.h" />
+		<Unit filename="day.cpp" />
+		<Unit filename="day.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.h" />
+		<Unit filename="ticket.cpp" />
+		<Unit filename="ticket.h" />
+		<Unit filename="ticketdata.cpp" />
+		<Unit filename="ticketdata.h" />
+		<Unit filename="time.cpp" />
+		<Unit filename="time.h" />
+		<Unit filename="train.cpp" />
+		<Unit filename="train.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
